@@ -1,0 +1,12 @@
+Dictionaries: 
+
+Get All Keys: a.keys()
+
+Get Key and Valuea.items()
+
+Find Same Keys: c = set(a).intersection(set(b))
+
+Update Dictionary: >>> a = {"1":1, "2":2, "3":3} >>> b = {"2":2, "3":3, "4":4} >>> a.update(b)
+
+Merge Two Dictionaries >>> a = {"x": 55, "y": 66} >>> b = {"a": "foo", "b": "bar"} >>> c = {**a, **b} 
+
